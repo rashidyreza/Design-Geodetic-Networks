@@ -1,6 +1,4 @@
-# Design-Geodetic-Networks
-
-# MATLAB Project Guide
+# Design Geodetic Networks MATLAB Project Guide
 
 ## Overview
 
