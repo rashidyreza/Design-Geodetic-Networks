@@ -44,7 +44,7 @@ This MATLAB script provides a GUI-based tool for working with geodetic network d
 
      - Plot ellipses representing the uncertainty of the coordinates.
      - Show relative errors and visualize the results using various plotting functions.
-
+https://github.com/rashidyreza/Design-Geodetic-Networks/blob/main/reaults/Lines_and_angles.png
    - **ZOD (Zeroing of Distance)**
 
      - Identify the best point for fixing the coordinates by adjusting errors and evaluating the effects.
