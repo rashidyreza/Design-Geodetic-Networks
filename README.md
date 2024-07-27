@@ -44,12 +44,16 @@ This MATLAB script provides a GUI-based tool for working with geodetic network d
 
      - Plot ellipses representing the uncertainty of the coordinates.
      - Show relative errors and visualize the results using various plotting functions.
-https://github.com/rashidyreza/Design-Geodetic-Networks/blob/main/reaults/Lines_and_angles.png
-   - **ZOD (Zeroing of Distance)**
+
+
+This plot shows the ellipses representing the uncertainty of the coordinates based on the lines and angles data.
+![Lines and Angles](reaults/Lines_and_angles.png)
+
+   - **ZOD (Zero Order design)**
 
      - Identify the best point for fixing the coordinates by adjusting errors and evaluating the effects.
 
-   - **FOD (Field of Directions)**
+   - **FOD (First Order design)**
 
      - Optimize coordinates by iteratively adjusting and evaluating the field of directions.
 
