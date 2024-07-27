@@ -165,7 +165,7 @@ while (CHOICE~=4)
                 elRelative=[sqrt(0.5*(sxyRE(:,1)+sxyRE(:,2)+sqrt((sxyRE(:,1)-sxyRE(:,2)).^2+4.*sxyRE(:,3).^2))),sqrt(0.5*(sxyRE(:,1)+sxyRE(:,2)-sqrt((sxyRE(:,1)-sxyRE(:,2)).^2+4.*sxyRE(:,3).^2))),atan(2*sxyRE(:,3)./(sxyRE(:,1)-sxyRE(:,2)))];%a,b,theta
                 %%plotEllipse
                 if (choice==1)
-                    scale=1;
+                    scale=10000;
                     plotEllipseRotated(chisquare_val*el(:,1),chisquare_val*el(:,2),[X_coordinate,Y_coordinate],wrapTo2Pi(el(:,3)),scale,'Lines & Angles',[Lines(:,1),Lines(:,2)]);
                     ShowAngles(3,[X_coordinate,Y_coordinate],Angles(:,2),Angles(:,1),Angles(:,3));
                 else if (choice==2)
@@ -181,7 +181,7 @@ while (CHOICE~=4)
                         end
                     end
                 end
-                scale=1;
+                scale=10000;
                 plotEllipseRilative(chisquare_val*elRelative(:,1),chisquare_val*elRelative(:,2),[sxyRE(:,4:5)],wrapTo2Pi(elRelative(:,3)+thetaa),[sxyRE(:,6:7)],scale);
                 S_Qcs=eye(2*n)-D'*inv(D*D')*D;
                 Qcs=S_Qcs*Qc*Qc';
